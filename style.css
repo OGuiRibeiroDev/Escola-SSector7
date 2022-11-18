@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url(https://img.freepik.com/premium-vector/cartoon-summer-beach-paradise-nature-vacation-ocean-sea-seashore-seaside-landscape-background-illustration_102902-1385.jpg?w=2000);
+    background-size: 1600px;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 1rem lightblue;
+}
+
+ul{
+    display: flex;
+    margin: 23px;
+}
+
+li{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    cursor: pointer;
+    padding-left: 2rem;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+input[type=submit]{
+    font-weight: bold;
+    background-color: rgba(15, 15, 15, 0.8);
+    font-size: 20px;
+    color: #00FFFF;
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-name{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-text{
+    font-family: 'Montserrat', sans-serif;
+}
+select{
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(15, 15, 15, 0.8);
+    color: #00FFFF;
+    text-align: center;
+    width: 300px;
+}
+
+.text-input{
+    width: 300px;
+    height: 400px;
+}
